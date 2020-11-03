@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
         #binding.pry
         low_num = value
         low_name = key
-        binding.pry
+        #binding.pry
       elsif value == nil
       low_name = nil
       end
