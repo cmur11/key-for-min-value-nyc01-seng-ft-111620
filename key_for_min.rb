@@ -8,9 +8,9 @@ def key_for_min_value(name_hash)
       #binding.pry
       if value < low_num
         #binding.pry
-        ow_num = value
+        low_num = value
         low_name = key
-        binding.pry
+        #binding.pry
       end
     end
     low_name
