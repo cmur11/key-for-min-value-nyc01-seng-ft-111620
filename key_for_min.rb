@@ -2,12 +2,12 @@
 # Given a hash with numeric values, return the key for the smallest value
 require 'pry'
 def key_for_min_value(name_hash)
-    var = 2
+    low_num = 2
     low_name = ""
     name_hash.each do |key,value|
       #binding.pry
-      if name_hash[value] < var
-        var = value
+      if name_hash[value] < low_num
+        low_num = value
         binding.pry
       end
     end
