@@ -4,6 +4,7 @@ require 'pry'
 def key_for_min_value(name_hash)
     var = 2
     name_hash.each do |key,value|
+      binding.pry
       if name_hash[key] < var
         var = key
         
