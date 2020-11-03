@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
       binding.pry
       if name_hash[key] < var
         var = key
-        
+        binding.pry
       end
     end
     var
