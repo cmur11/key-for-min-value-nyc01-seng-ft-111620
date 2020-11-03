@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
         var = key
       end
     end
-    name_hash[var]
+    var
 end
