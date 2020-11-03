@@ -9,8 +9,6 @@ def key_for_min_value(name_hash)
       if value == nil
         return nil
         
-        
-        
         elsif value < low_num
         #binding.pry
         low_num = value
